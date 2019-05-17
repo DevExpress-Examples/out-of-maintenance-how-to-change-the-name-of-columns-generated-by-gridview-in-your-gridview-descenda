@@ -1,5 +1,4 @@
-Imports Microsoft.VisualBasic
-Imports System
+﻿Imports System
 Imports System.Collections.Generic
 Imports System.Text
 Imports DevExpress.XtraGrid.Views.Grid
@@ -10,6 +9,7 @@ Imports DevExpress.XtraGrid.Views.Base
 Namespace Q131966
 	Public Class MyGridView
 		Inherits GridView
+
 		Public Sub New(ByVal control As GridControl)
 			MyBase.New(control)
 		End Sub
@@ -31,6 +31,7 @@ Namespace Q131966
 
 	Public Class MyGridInfoRegistrator
 		Inherits GridInfoRegistrator
+
 		Public Sub New()
 			MyBase.New()
 		End Sub
@@ -48,6 +49,7 @@ Namespace Q131966
 
 	Public Class MyGridControl
 		Inherits GridControl
+
 		Public Sub New()
 			MyBase.New()
 		End Sub
